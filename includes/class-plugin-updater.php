@@ -40,7 +40,7 @@ class ExamplePluginUpdater {
 	 * @param string $plugin_id   The ID of the plugin.
 	 * @param string $plugin_slug The slug of the plugin.
 	 * @param string $version     The current version of the plugin.
-	 * @param string $version     The API URL to the update server.
+	 * @param string $api_url     The API URL to the update server.
 	 */
 	public function __construct( $plugin_id, $plugin_slug, $version, $api_url ) {
 		$this->plugin_id     = $plugin_id;
